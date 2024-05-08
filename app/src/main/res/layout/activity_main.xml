@@ -1,0 +1,55 @@
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/black"
+    >
+    <TextView
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="40dp"
+        android:textSize="30dp"
+        android:text="@string/titulo"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+    </TextView>
+    <Button
+        android:id="@+id/botonlinear"
+        android:layout_marginTop="140dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/linearlayout">
+
+    </Button>
+    <Button
+        android:id="@+id/botontable"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Tablelayout">
+
+    </Button>
+    <Button
+        android:id="@+id/botonrelative"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Relativelayout">
+
+    </Button>
+
+</LinearLayout>

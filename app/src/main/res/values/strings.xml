@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">organizacion de vistas</string>
+    <string name="titulo">Organizacion de vistas</string>
+    <string name="nombres">Yesica </string>
+    <string name="apellidos">Zemanate </string>
+    <string name="correo">yemaze.123.y.z@gmail.com</string>
+    <string name="boton1">Boton 1</string>
+    <string name="boton2">Boton 2</string>
+    <string name="datospersonales">Datos Personales</string>
+    <string name="num1.1">1.1</string>
+    <string name="num1.2">1.2</string>
+    <string name="num1.3">1.3</string>
+    <string name="num1.4">1.4</string>
+    <string name="num2.1">2.1</string>
+    <string name="num2.2">2.2</string>
+    <string name="num2.3">2.3</string>
+    <string name="num3.1">3.1</string>
+    <string name="num3.2">3.2</string>
+    <string name="num4.1">4.1</string>
+    <string name="titulorelative">Relative Layout Examples</string>
+    <string name="red">red</string>
+    <string name="blue">blue</string>
+    <string name="green">green</string>
+    <string name="orange">orange</string>
+    <string name="yellow">yellow</string>
+    <string name="indigo">indigo</string>
+    <string name="violet">violet</string>
+    <string name="linearlayout">Linear Layout</string>
+    <string name="Tablelayout">Table Layout</string>
+    <string name="Relativelayout">Relative Layout</string>
+</resources>

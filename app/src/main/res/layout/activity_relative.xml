@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Relative"
+    android:background="@color/black"
+    >
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:id="@+id/primero"
+        android:text="@string/red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:background="@color/rojo"
+        android:textSize="30dp"
+        android:layout_marginLeft="30dp">
+
+    </TextView>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/segundo"
+        android:text="@string/blue"
+        android:background="@color/azul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="30dp"
+        android:layout_toEndOf="@+id/primero">
+
+    </TextView>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/tercero"
+        android:text="@string/green"
+        android:textColor="@color/white"
+        android:background="@color/verde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="30dp"
+        android:layout_toRightOf="@+id/segundo">
+
+    </TextView>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/cuarto"
+        android:text="@string/orange"
+        android:textColor="@color/white"
+        android:background="@color/orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="30dp"
+        android:layout_below="@+id/primero"
+        android:layout_toRightOf="@+id/primero">
+
+    </TextView>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/quinto"
+        android:text="@string/yellow"
+        android:textColor="@color/white"
+        android:background="@color/yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="30dp"
+        android:layout_below="@+id/segundo"
+        android:layout_toRightOf="@+id/cuarto">
+
+    </TextView>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/sexto"
+        android:text="@string/indigo"
+        android:textColor="@color/white"
+        android:background="@color/indigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="30dp"
+        android:layout_below="@+id/tercero"
+        android:layout_toRightOf="@+id/quinto">
+
+    </TextView>
+    <TextView
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/septimo"
+        android:text="@string/violet"
+        android:textColor="@color/white"
+        android:background="@color/violet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="30dp"
+        android:layout_below="@+id/cuarto"
+        >
+
+    </TextView>
+
+</RelativeLayout>

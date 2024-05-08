@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_browse_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LinearLayout"
+    tools:deviceIds="tv"
+    android:orientation="vertical"
+    tools:ignore="MergeRootFrame"
+    >
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:text="@string/titulo"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <Button
+            android:text="@string/boton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:text="@string/boton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="140dp"
+            android:layout_marginLeft="20dp">
+
+        </Button>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="60dp"
+        android:layout_gravity="center"
+        android:text="@string/nombres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="@string/apellidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="@string/correo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+</LinearLayout>

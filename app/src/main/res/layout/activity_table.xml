@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="horizontal"
+    tools:context=".Table"
+    android:background="@color/black"
+    >
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_width="130dp"
+            android:text="@string/num1.1"
+            >
+
+        </TextView>
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_width="130dp"
+            android:text="@string/num1.2">
+
+        </TextView>
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_width="130dp"
+            android:text="@string/num1.3">
+
+        </TextView>
+
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:textColor="@color/white"
+        android:gravity="center">
+
+        <TextView
+            android:textColor="@color/white"
+            android:text="@string/num2.1">
+
+        </TextView>
+
+        <TextView
+            android:textColor="@color/white"
+            android:text="@string/num2.2">
+
+        </TextView>
+
+        <TextView
+            android:textColor="@color/white"
+            android:text="@string/num2.3">
+
+        </TextView>
+
+    </TableRow>
+
+    <TableRow
+        android:gravity="center">
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_gravity="right"
+
+            android:text="@string/num3.1">
+
+        </TextView>
+        <TextView>
+
+        </TextView>
+        <TextView
+            android:textColor="@color/white"
+            android:text="@string/num3.2">
+
+        </TextView>
+    </TableRow>
+
+
+
+
+</TableLayout>
